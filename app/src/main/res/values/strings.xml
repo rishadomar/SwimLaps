@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SwimLaps</string>
+    <string name="title_activity_pause">PauseActivity</string>
+    <string name="chronometer_initial_format">HH:MM:SS</string>
+    <string name="go">GO</string>
+    <string name="pause">Pause</string>
+</resources>
