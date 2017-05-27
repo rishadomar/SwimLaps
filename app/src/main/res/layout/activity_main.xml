@@ -7,18 +7,22 @@
     android:orientation="vertical">
 
     <Button
+        android:typeface="serif"
+        android:textSize="120dp"
         android:id="@+id/newSessionButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text="Start Session" />
+        android:text="@string/start_session" />
 
     <Button
+        android:typeface="serif"
+        android:textSize="120dp"
         android:id="@+id/viewHistoryButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text="View History" />
+        android:text="@string/view_history" />
 
 </LinearLayout>
 

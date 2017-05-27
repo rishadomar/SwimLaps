@@ -6,18 +6,22 @@
     android:orientation="vertical">
 
     <Button
+        android:typeface="serif"
+        android:textSize="120dp"
         android:id="@+id/resumeButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text="Resume" />
+        android:text="@string/resume" />
 
     <Button
+        android:typeface="serif"
+        android:textSize="120dp"
         android:id="@+id/endSessionButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text="End Session" />
+        android:text="@string/end_session" />
 
 </LinearLayout>
 <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
