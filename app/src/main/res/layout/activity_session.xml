@@ -10,14 +10,23 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text="Pause" />
+        android:text="@string/pause" />
 
     <Button
         android:id="@+id/goButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:text="GO" />
+        android:text="@string/go" />
+
+    <Chronometer android:id="@+id/chronometer"
+        android:format="@string/chronometer_initial_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingBottom="30dip"
+        android:paddingTop="30dip"
+        />
 
 </LinearLayout>
 
