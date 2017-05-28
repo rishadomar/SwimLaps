@@ -8,7 +8,7 @@
 
     <Button
         android:typeface="serif"
-        android:textSize="120dp"
+        android:textSize="50sp"
         android:id="@+id/newSessionButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -17,7 +17,7 @@
 
     <Button
         android:typeface="serif"
-        android:textSize="120dp"
+        android:textSize="50sp"
         android:id="@+id/viewHistoryButton"
         android:layout_width="match_parent"
         android:layout_height="0dp"
