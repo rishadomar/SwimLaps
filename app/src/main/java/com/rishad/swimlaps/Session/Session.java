@@ -1,24 +1,25 @@
 package com.rishad.swimlaps.Session;
 
+import android.content.Context;
+
 import java.util.Date;
 
 public class Session {
-    private int id;
+    private long id;
     private Date date;
 
-    public Session(int id, Date date)
+    public Session(long id, Date date)
     {
         this.id = id;
         this.date = date;
     }
 
-    static public Session makeNew()
-    {
-        return new Session(99, new Date());
+    static public Session makeNew(Context applicationContext) {
+        DatabaseHelper db = new DatabaseHelper(applicationContext);
+        return db.createSession();
     }
 
-    public int getId()
-    {
+    public long getId() {
         return this.id;
     }
 

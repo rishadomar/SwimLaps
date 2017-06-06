@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
 
+import com.rishad.swimlaps.Session.Session;
+
 public class SessionActivity extends AppCompatActivity {
     Chronometer mChronometer;
     static long mCurrentChronometerValue = 0;
@@ -22,6 +24,8 @@ public class SessionActivity extends AppCompatActivity {
         if (mCurrentChronometerValueString.length() > 0) {
             mChronometer.setText(mCurrentChronometerValueString);
         }
+
+        Session session = Session.makeNew(getApplicationContext());
 
         /*
          * Pause
